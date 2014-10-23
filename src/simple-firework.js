@@ -25,14 +25,14 @@ function Firework(I) {
     I.yVelocity = -I.speed;
 
     I.draw = function( context ) {
-        context.fillStyle = this.color;
-        context.strokeStyle = this.color;
         if(I.state === 'flying') {
+            context.fillStyle = this.color;
             context.fillRect(this.x, this.y, this.width, this.height);
         } else {
             context.beginPath();
             context.arc(I.x,I.y,I.explodeRadius,0,Math.PI*2,true);
             context.closePath();
+            context.strokeStyle = this.color;
             context.stroke();
         }
     };
@@ -69,7 +69,7 @@ function Firework(I) {
         var colorArray = ['#FFFF00','#00CC00','#0066FF','#CC0000','#6600FF'];
         var color = colorArray[Math.floor(Math.random() * colorArray.length)];
         return color;
-    }
+    };
 
     return I;
 }
