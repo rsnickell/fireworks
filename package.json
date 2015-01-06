@@ -1,7 +1,7 @@
 {
-  "name": "jshinter",
+  "name": "fireworks",
   "version": "0.0.1",
-  "description": "JSHinter",
+  "description": "A simple canvas based fireworks simulator",
   "main": "Gruntfile.js",
   "directories": {
     "doc": "doc"

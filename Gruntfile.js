@@ -1,27 +1,11 @@
 /*
-* JSHinter Grunt Tasks
+* Grunt Tasks
 *
 * @author Ryan Nickell
 */
 module.exports = function(grunt) {
-     var IIFEopen = '(function() {\n"use strict";\n\n';
-     var IIFEclose = '\n})();';
-
-    /*
-    * Helper method to load configuration files for Grunt
-    */
-    function loadConfig(path) {
-        var glob = require('glob');
-        var object = {};
-        var key;
-
-        glob.sync('*', {cwd: path}).forEach(function(option) {
-            key = option.replace(/\.js$/,'');
-            object[key] = require(path + option);
-        });
-
-        return  object;
-    }
+    var IIFEopen = '(function() {\n"use strict";\n\n';
+    var IIFEclose = '\n})();';
 
     var jshintSrc = [
         'src/**',
