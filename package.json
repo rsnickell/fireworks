@@ -1,0 +1,24 @@
+{
+  "name": "jshinter",
+  "version": "0.0.1",
+  "description": "JSHinter",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "Ryan Nickell",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^4.0.6",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
