@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt --verbose"
   },
   "author": "Ryan Nickell",
   "license": "MIT",
