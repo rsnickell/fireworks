@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/rsnickell/fireworks.png)](https://travis-ci.org/rsnickell/fireworks)
+
 fireworks
 =========
 
