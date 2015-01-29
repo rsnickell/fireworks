@@ -5,3 +5,6 @@ fireworks
 
 A simple canvas based fireworks simulator
 
+sample screenshot
+=================
+![Sample Screenshot](sample.png)
